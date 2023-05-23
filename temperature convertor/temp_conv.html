@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Temperature converter
+        </title>
+        <link rel="stylesheet" href="E:\temperature convertor\style.css">
+        <script type="text/javascript" src="convert.js">
+        </script>
+    </head>
+    <body >
+        <center>
+        <h1>
+            Temperature converter
+        </h1>
+       <br>
+        <input type="text" name="temp" id="temp" size="40" placeholder="Enter any temperature in C/F/K">
+        <br>
+        <br>
+        <br>
+        <form>
+            <table align="center" cellpadding="10" cellspacing="10">
+                <tr>
+                    <td>
+                        <button id='submit' onmouseover="tocel()"> Celcius</button>
+                    </td>
+               
+                    <td>
+                        <button id="submit" onmouseover="tofah()"> Fahrenheit</button>
+                    </td>
+               
+                    <td>
+                        <button id="submit" onmouseover="tokel()">Kelvin</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <h3><P id="ans"></P></h3>
+    </center>
+    </body>
+</html>

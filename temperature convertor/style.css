@@ -1,0 +1,33 @@
+body{
+    size: 1000;
+    background-color: aquamarine;
+    background-image:url("temp_image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+#submit{
+    background-color: #aa49ca;
+    border: 10px;
+    width: 100%;
+    padding: 15px 32px;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+#submit:hover{
+    background-color: #36ac89;
+}
+#temp{
+    background-color:whitesmoke;
+    color: black;
+}
+h1{
+    text-align: center;
+    color:rgb(9, 9, 9);
+}
+h3{
+    text-align: center;
+    color:rgb(54, 7, 15);
+}
