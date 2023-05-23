@@ -69,7 +69,7 @@ function tokel()
     else if(type=='F')
     {
         f=parseInt(in_temp);
-        k=(((32*f)-32)*5/9)+273.15
+        k=((F-32)*5/9)+273.15
         document.getElementById('ans').innerHTML=k+'K';
     }
     else if(type=='C')
