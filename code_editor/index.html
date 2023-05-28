@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Web IDE</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="editor">
+        <h3 style="background-color:rgb(0, 195, 255);"><center>HTML</center></h3>
+        <textarea id="html-code"></textarea>
+        <h3 style="background-color:rgb(47, 143, 184);"><center>CSS</center></h3>
+        <textarea id="css-code"></textarea>
+        <h3 style="background-color:rgb(49, 182, 215);"><center>JavaScript</center></h3>
+        <textarea id="js-code"></textarea>
+        <button style="background-color:#094063;" onclick="runCode()">Run</button>
+      </div>
+      <div class="output">
+        <iframe id="output-frame"></iframe>
+      </div>
+    </div>
+  
+    <script src="runcode.js"></script>
+  </body>
+  </html>
